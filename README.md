@@ -4,17 +4,21 @@ shell commands or scripts when the button is pressed.
 
 Example usage:
 
+===================
 1.  button-press.py
+===================
 
-    This script waits for a button press on the /dev/input/event0.
+    This command waits for a button press on the /dev/input/event0.
     When the button is pressed - "Pressed" is printed in the terminal window,
     and the program exits.
 
     ./button-press.py /dev/input/event0 "echo 'Pressed'"
 
+===========================
 2.  button-press-forever.py
+===========================
 
-    This script waits for a button press on the /dev/input/event0.
+    This command waits for a button press on the /dev/input/event0.
     Each time the button is pressed - "Pressed" is printed in the terminal window.
 
     ./button-press-forever.py /dev/input/event0 "echo 'Pressed'"
