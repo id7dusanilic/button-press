@@ -29,9 +29,9 @@ Example:
 Make a example_script.sh with following content:
 (Make sure that both example_script.sh and button-press.py are executable.)
 
-#!/bin/sh
+    #!/bin/sh
 
-/usr/bin/python3 /path/to/script/button-press.py /dev/input/event0 "echo 'Pressed'" &
+    /usr/bin/python3 /path/to/script/button-press.py /dev/input/event0 "echo 'Pressed'" &
 
 
 Copy example_script.sh to /etc/init.d. Then go to your default runlevel (can be found in /etc/inittab)
